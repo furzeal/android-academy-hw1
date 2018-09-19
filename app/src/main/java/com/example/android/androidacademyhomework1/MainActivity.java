@@ -11,8 +11,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText messageText;
     private Button previewButton;
 
-    private String message;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +22,13 @@ public class MainActivity extends AppCompatActivity {
         previewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                message = messageText.getText().toString();
+                openShowMessageActivity( messageText.getText().toString());
             }
         });
 
+    }
+
+    private void openShowMessageActivity(String message) {
+        ShowMessageActivity.start(this,message);
     }
 }
