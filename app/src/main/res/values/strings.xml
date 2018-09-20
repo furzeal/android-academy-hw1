@@ -3,4 +3,8 @@
     <string name="preview_button_text">Preview</string>
     <string name="type_your_message_here">Type your message here...</string>
     <string name="space_string" />
+    <string name="send_email">Send email</string>
+    <string name="email_address" translatable="false">andr.academy.msk@gmail.com</string>
+    <string name="email_subject">Hello, Android Academy MSK!</string>
+    <string name="error_no_email_app">Sorry! No Email apps were found!</string>
 </resources>
