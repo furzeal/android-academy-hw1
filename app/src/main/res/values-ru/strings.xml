@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Academy Домашняя работа 1</string>
+    <string name="preview_button_text">Просмотреть</string>
+    <string name="type_your_message_here">Введите свое сообщение...</string>
+    <string name="space_string" />
+    <string name="send_email">Отправить письмо</string>
+
+    <string name="email_subject">Здорова, Android Academy MSK!</string>
+    <string name="error_no_email_app">Приложения отправки электронных писем не были найдены!</string>
+</resources>
